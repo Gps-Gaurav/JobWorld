@@ -7,8 +7,8 @@
   "scripts": {
     
     "dev": "nodemon backend/index.js",
-    "build":"npm install && npm install --prefix JobWorld-front-end && npm run build --prefix JobWorld-front-end",
-    "start": "nodemon JobWorld-Back-end/index.js"
+    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "nodemon backend/index.js"
     
   },
   "author": "",
