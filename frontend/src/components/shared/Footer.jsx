@@ -34,7 +34,7 @@ const Footer = () => {
   
       <div class="mt-10 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-0">
         <div class="mx-auto max-w-sm lg:max-w-none">
-        <img src="src/assets/image.png" />
+        <img src="https://res.cloudinary.com/gpsgaurav/image/upload/v1730208922/job_logo_ydabmr.jpg" />
     
         </div>
   
