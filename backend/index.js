@@ -8,11 +8,13 @@ import companyRoute from "./routes/company.route.js";
 import jobRoute from "./routes/job.route.js";
 import applicationRoute from "./routes/application.route.js";
 import path from 'path';
+import morgan from "morgan";
 dotenv.config({});
 
 const app = express();
 const _dirname = path.resolve();
 
+app.use(morgan('dev'));
 // middleware
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
